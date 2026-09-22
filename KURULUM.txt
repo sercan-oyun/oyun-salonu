@@ -1,0 +1,43 @@
+OYUN SALONU - KURULUM
+Okey, 101, Batak, Tavla. Reklamsız, internetsiz.
+
+Bu klasördeki 7 dosya birlikte durmalı:
+index.html, sw.js, manifest.webmanifest, icon-192.png, icon-512.png,
+icon-maskable-512.png, apple-touch-icon.png
+
+------------------------------------------------------------
+1) ÜCRETSİZ BİR ADRESE KOYMA (bir kez yapılır) - GitHub Pages
+------------------------------------------------------------
+a. github.com adresinden ücretsiz hesap açın.
+b. Sağ üstteki "+" > "New repository". Ad: oyun-salonu, "Public" seçili olsun, "Create repository".
+c. Açılan sayfada "uploading an existing file" bağlantısına tıklayın,
+   7 dosyayı sürükleyip bırakın, alttaki "Commit changes" düğmesine basın.
+d. "Settings" > soldaki "Pages" > "Branch" kısmında "main" ve "/(root)" seçip "Save".
+e. 1-2 dakika sonra adresiniz hazır olur:
+   https://KULLANICIADINIZ.github.io/oyun-salonu/
+
+------------------------------------------------------------
+2) SAMSUNG TELEFONA KURMA
+------------------------------------------------------------
+- Chrome ile: adresi açın > sağ üstteki ⋮ > "Ana ekrana ekle" ya da "Uygulamayı yükle".
+- Samsung Internet ile: adresi açın > alttaki ≡ menü > "Sayfayı ekle" > "Ana ekran".
+- Ana ekranda yeşil okey taşı simgeli "Oyun Salonu" çıkar.
+- Bir kez internet varken açın. Sonrasında internet olmadan çalışır.
+- Kurulu uygulama kendiliğinden yatay açılır.
+
+------------------------------------------------------------
+3) WINDOWS BİLGİSAYARA KURMA
+------------------------------------------------------------
+- Edge ile adresi açın > sağ üstteki ⋯ > "Uygulamalar" > "Bu siteyi uygulama olarak yükle".
+  (Chrome'da: adres çubuğunun sağındaki yükleme simgesi.)
+- Başlat menüsüne ve istenirse masaüstüne "Oyun Salonu" kısayolu eklenir.
+- Kurmadan da olur: index.html dosyasına çift tıklamak da internetsiz açar.
+
+------------------------------------------------------------
+BİLİNMESİ GEREKENLER
+------------------------------------------------------------
+- Skorlar ve yarım kalan oyunlar her cihazda ayrı tutulur.
+- Tarayıcının "site verilerini temizle" işlemi skorları siler.
+- Güncelleme yapılırsa: yeni index.html'i GitHub'a aynı şekilde yükleyin ve
+  sw.js içindeki 'oyun-salonu-v1' yazısını 'oyun-salonu-v2' yapın.
+  Cihazlar bir sonraki internetli açılışta yeni sürümü alır.
